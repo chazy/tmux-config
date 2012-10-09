@@ -1,8 +1,8 @@
-#!/bin/zsh
+#!/bin/sh
 FIXUP=$(which reattach-to-user-namespace)
 
 if [ ! -z "$FIXUP" -a -x "$FIXUP" ]; then
-	exec $FIXUP -l zsh
+	exec $FIXUP -l $SHELL
 else
-	exec zsh
+	exec $SHELL
 fi
