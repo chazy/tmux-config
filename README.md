@@ -1,9 +1,14 @@
+About
+------------
+This is a fork of http://github.com/nviennot/tmux-config
+Thanks Nico!
+
 Installation
 ------------
 
 To install, run
 
-    git clone git://github.com/nviennot/tmux-config.git ~/.tmux
+    git clone git://github.com/afrojer/tmux-config.git ~/.tmux
     cd ~/.tmux
     make install
 
@@ -26,6 +31,8 @@ The following key bindings do not require you to send the prefix keystroke:
 `Alt + K` Go to the top pane  
 `Alt + L` Go to the right pane  
 
+`Alt + =` Equal vertial panes  
+`Alt + +` Equal horizontal panes  
 `Alt + Arrow` Resize pane  
 
 `Alt + PageUp` Copy mode and page up  
@@ -35,8 +42,6 @@ The following key bindings do not require you to send the prefix keystroke:
 `Alt + 8` Choose a session to attach  
 `Alt + 9` Cycle left through sessions  
 `Alt + 0` Cycle right through sessions  
-
-`Alt + D` Detach  
 
 Ubiquitous Tmux
 ----------------
