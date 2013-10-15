@@ -8,7 +8,7 @@ Installation
 
 To install, run
 
-    git clone git://github.com/afrojer/tmux-config.git ~/.tmux
+    git clone git://github.com/chazy/tmux-config.git ~/.tmux
     cd ~/.tmux
     make install
 
